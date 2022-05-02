@@ -3,11 +3,12 @@
   padding: 0;
 }
 body{
- background-color: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-color: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  overflow-x: hidden;
 }
 /* header */
 .header {
-  background-color: #122142e2;
+  background-color: #12203e;
 }
 .logo {
   margin: 0;
@@ -20,38 +21,44 @@ body{
 .nav-link {
   color: #fff;
   margin-right: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   transition: all 0.5s;
 }
 .nav-link:hover {
   transform: scale(1.5, 1.5);
 }
 /* contenido */
+
 .container{
   display: flex;
  justify-content: center;
 }
 .textoprincipal__text {
-  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 44px;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #12203e;
-  transition: all 2s ease;
 }
-.textoprincipal__text:hover {
-  background: white;
-  color: black;
-  transform: scale(1);
+.textoprincipal__subtitulos{
+  font-family: 'Roboto', sans-serif;
+  color: rgba(42, 38, 38, 0.603);
+  font-size: 20px;
+  margin-top: 5px;
 }
 .texto__contenido{
   margin: 16px;
-  font-weight: 400; 
- font-family: sans-serif;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   color: #000;
   align-items: center;
   justify-content: center;
+}
+.container__parrafo{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 .imagen__principal{
   display: flex;
@@ -70,6 +77,21 @@ body{
 }
 .imagen__contenido:hover{
  transform: translate(10px,10px)
+}
+.contenedor__imagen{
+  width: 450px;
+  height: 300px;
+  border-radius: 1em;
+  margin-left: 60px;
+  transition: all 1s;
+}
+.contenedor__imagen:hover{
+ transform: translate(10px,10px);
+}
+.contenedor__parrafo{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 200px;
 }
 /* footer */
 .footer {
@@ -107,7 +129,7 @@ body{
   max-width: 400px;
   border-radius: 1em;
   padding: 3.5em 1.5em;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Roboto', sans-serif;
 }
 .form__container {
   width: 100%;
