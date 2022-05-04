@@ -42,12 +42,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-.textoprincipal__subtitulos{
-  font-family: 'Roboto', sans-serif;
-  color: rgba(42, 38, 38, 0.603);
-  font-size: 20px;
-  margin-top: 5px;
-}
 .texto__contenido{
   margin: 16px;
   font-size: 20px;

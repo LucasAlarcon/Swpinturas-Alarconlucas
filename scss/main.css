@@ -1,0 +1,103 @@
+header {
+  background-color: #12203e;
+}
+
+header .logo {
+  margin: 0;
+  padding: 5px;
+  width: 150px;
+}
+
+header .navbar-collapse {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .navbar-collapse .nav-link {
+  color: #fff;
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header .navbar-collapse .nav-link .nav-link:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.form {
+  margin: 20px;
+  margin-left: 800px;
+  background-image: 0;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form .form__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form .form__container .form__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 1.4em;
+}
+
+.form .form__container .form__input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+
+.form .form__container .form__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+
+.form .form__container .form__cta {
+  background-color: #089fe0;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.ubi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+.ubi .ubi__texto {
+  text-align: center;
+  margin: 15px;
+}
+
+.ubi .ubi__iframe {
+  width: 1320px;
+  padding-right: 50px 0;
+}
+/*# sourceMappingURL=main.css.map */
