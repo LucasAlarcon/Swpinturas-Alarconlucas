@@ -1,3 +1,17 @@
+/* map */
+/* extend */
+header .navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header {
   background-color: #12203e;
 }
@@ -6,12 +20,6 @@ header .logo {
   margin: 0;
   padding: 5px;
   width: 150px;
-}
-
-header .navbar-collapse {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 header .navbar-collapse .nav-link {
@@ -23,9 +31,47 @@ header .navbar-collapse .nav-link {
   transition: all 0.5s;
 }
 
-header .navbar-collapse .nav-link .nav-link:hover {
+header .navbar-collapse .nav-link:hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
+}
+
+.footer {
+  background-color: #12203e;
+}
+
+.footer .footer__logo {
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+.footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.footer .fa-brands {
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer .fa-brands:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.footer .footer__texto {
+  margin-top: 5px;
+  text-align: center;
+  color: #fff;
 }
 
 .form {

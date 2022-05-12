@@ -1,5 +1,5 @@
 header{
-    background-color: #12203e;
+    background-color: map-get($colores , color-header-footer);
 
     .logo{
         margin: 0;
@@ -8,18 +8,18 @@ header{
     }
 
     .navbar-collapse{
-        justify-content: center;
+        @extend %flex-center;
 
         .nav-link{
             color: #fff;
             margin-right: 30px;
             font-family: 'Roboto', sans-serif;
-            font-size: 18px;
+            font-size: map-get($tamaño-tipografico,  letra-nav);
             transition: all 0.5s;
-
+        }
             .nav-link:hover{
                 transform: scale(1.5, 1.5);
             }
-        }
+       
     }
 }

@@ -1,1 +1,22 @@
 $font-family: 'Roboto', sans-serif;
+/* map */
+$tamaño-tipografico:(
+    titulos: 44px,
+    subtitulos: 20px,
+    letra-nav: 18px,
+    parrafos: 16px,
+    letra-chica: 1.9rem,
+);
+$colores:(
+    color-principal: linear-gradient(to top, #d299c2 0%, #fef9d7 100%),
+    color-header-footer: #12203e,
+    color-nav: #fff,
+
+
+);
+/* extend */
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
