@@ -1,4 +1,9 @@
 @import './base/variables';
-@import './componentes/header';
-@import './componentes/footer';
-@import './componentes/contacto';
+@import './componentes/_body.scss';
+@import './componentes/_header';
+@import './componentes/_footer';
+@import './componentes/_contacto';
+@import './componentes/_galeria';
+@import './componentes/_Laempresa';
+@import './componentes/_servicio';
+@import './componentes/_index.scss';

@@ -15,7 +15,7 @@
         grid-auto-columns: 100%;
  
         .form__title {
-          text-align: center;
+          @extend %flex-center;
           font-size: map-get($tamaño-tipografico, letra-chica);
           margin-bottom: 1.4em;
         }
@@ -51,7 +51,7 @@
     margin: 10px;
     
     .ubi__texto {
-      text-align: center;
+      @extend %flex-center;
       margin: 15px;
     }
       .ubi__iframe {
