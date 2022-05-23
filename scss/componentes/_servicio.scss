@@ -1,0 +1,11 @@
+.titulo__servicio{
+ font-family: 'Roboto', sans-serif;
+ font-size: map-get($tamaño-tipografico, titulos);
+ color: #000;
+ @extend %flex-center;
+}
+    .Parrafo__servicio{
+     font-size: map-get($tamaño-tipografico, parrafos);
+     font-family: 'Roboto', sans-serif;
+     margin: 10px;
+    }

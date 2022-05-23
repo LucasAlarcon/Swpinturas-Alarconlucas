@@ -5,6 +5,10 @@
         padding: 5px;
         width: 150px;
     }
+    .footer__texto{
+      color: #fff;
+      font-size: map-get($tamaño-tipografico, parrafos);;
+    }
         .footer__redes{
           display: flex;
           justify-content: space-evenly;

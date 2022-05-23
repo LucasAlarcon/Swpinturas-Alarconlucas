@@ -8,7 +8,7 @@
     @extend %flex-center;
  
     .container__parrafo{
-        font-size: map-get($tamaño-tipografico, parrafos);
+      font-size: map-get($tamaño-tipografico, parrafos);
       font-family: 'Roboto', sans-serif;
     }
         .imagen__contenido{
@@ -30,9 +30,7 @@
       font-family: 'Roboto', sans-serif;
       font-size: map-get($tamaño-tipografico, titulos);
       color: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %flex-center;
     }
         .contenedor__imagen{
          margin: 5px;

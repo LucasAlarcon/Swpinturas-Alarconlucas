@@ -4,16 +4,9 @@
     color: #000;
     @extend %flex-center;
     margin: 50px;
- 
-    .imagen__contenido{
+}
+    .imagen__principal{
      border-radius: 1em;
      margin: 5px;
-     object-fit: cover;
-     width: 250px;
-     height: 250px;
-     transition: all 1s;
+     object-fit: cover;    
     }
-      .imagen__contenido:hover{
-       transform: translate(10px,10px)
-      }   
-}

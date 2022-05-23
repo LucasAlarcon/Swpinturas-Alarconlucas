@@ -1,6 +1,6 @@
 /* map */
 /* extend */
-header .navbar-collapse, .form .form__container .form__title, .ubi .ubi__texto, .text__galeria, .texto__contenido, .textoprincipal__text, .container, .segundo__contenedor {
+header .navbar-collapse, .form .form__container .form__title, .ubi .ubi__texto, .text__galeria, .texto__contenido, .titulo__servicio, .textoprincipal__text, .container, .segundo__contenedor, .segundo__contenedor .textoprincipal__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +49,11 @@ header .navbar-collapse .nav-link:hover {
   margin-top: 10px;
   padding: 5px;
   width: 150px;
+}
+
+.footer .footer__texto {
+  color: #fff;
+  font-size: 18px;
 }
 
 .footer .footer__redes {
@@ -149,33 +154,36 @@ header .navbar-collapse .nav-link:hover {
   padding-bottom: 10px;
 }
 
-.carousel-inner .carousel-inner img {
+.carousel-inner img {
   width: 100%;
   max-height: 460px;
   border-radius: 1em;
 }
 
 .texto__contenido {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: #000;
   margin: 50px;
 }
 
-.texto__contenido .imagen__contenido {
+.imagen__principal {
   border-radius: 1em;
   margin: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 250px;
-  height: 250px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
 }
 
-.texto__contenido .imagen__contenido:hover {
-  -webkit-transform: translate(10px, 10px);
-          transform: translate(10px, 10px);
+.titulo__servicio {
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  color: #000;
+}
+
+.Parrafo__servicio {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
 }
 
 .textoprincipal__text {
@@ -185,7 +193,7 @@ header .navbar-collapse .nav-link:hover {
 }
 
 .container .container__parrafo {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -209,15 +217,6 @@ header .navbar-collapse .nav-link:hover {
   font-family: 'Roboto', sans-serif;
   font-size: 44px;
   color: #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .segundo__contenedor .contenedor__imagen {
@@ -237,7 +236,7 @@ header .navbar-collapse .nav-link:hover {
 }
 
 .segundo__contenedor .contenedor__parrafo {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
