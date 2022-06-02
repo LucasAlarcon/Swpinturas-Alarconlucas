@@ -1,3 +1,4 @@
+
 .textoprincipal__text {
     font-family: 'Roboto', sans-serif;
     font-size: map-get($tamaño-tipografico, titulos);
@@ -39,6 +40,7 @@
          height: 300px;
          border-radius: 1em;
          transition: all 1s;
+         margin-left: 150px;
         }
             .contenedor__imagen:hover{
              transform: translate(10px,10px);
@@ -46,6 +48,6 @@
                 .contenedor__parrafo{
                  font-size: map-get($tamaño-tipografico, parrafos);
                  font-family: 'Roboto', sans-serif;
-                 
+                 margin-right: 100px;
                 }
 }

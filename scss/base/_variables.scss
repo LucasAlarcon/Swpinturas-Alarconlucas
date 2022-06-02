@@ -4,7 +4,7 @@ $tamaño-tipografico:(
     titulos: 44px,
     subtitulos: 20px,
     letra-nav: 18px,
-    parrafos: 18px,
+    parrafos: 16px,
     letra-chica: 1.9rem,
 );
 $colores:(
@@ -20,3 +20,36 @@ $colores:(
     justify-content: center;
     align-items: center;
 };
+/* mixin */
+@mixin mediaQuery($pantalla){
+    
+    @if $pantalla == 'mobile'{
+        @media only screen and (max-width: 500px){
+         @content;
+        }
+    };
+    @if $pantalla == 'tablet' {
+        @media only screen and (max-width: 780px){
+            @content;
+        }
+    };
+    @if $pantalla == 'desktop' {
+        @media only screen and (max-width: 1024px){
+            @content;
+        }
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
