@@ -1,6 +1,6 @@
 .form {
   margin: 20px;
-  margin-left: 800px;
+  
   background-image: 0;
   width: 80%;
   max-width: 400px;
@@ -55,8 +55,15 @@
       margin: 15px;
     }
       .ubi__iframe {
-        width: 1320px;
+        width: 100%;
         padding-right: 50px 0;
         margin-bottom: 45px;
+       
+        @include mediaQuery(mobile){
+          margin-bottom: 30%;
+        }
+        @include mediaQuery(tablet){
+          margin-bottom: 20%;
+        }
       }
 }

@@ -9,5 +9,12 @@
         font-family: 'Roboto', sans-serif;
         color: #000;
         @extend %flex-center;
-        margin: 50px;
+        padding: 50px;
+
+        @include mediaQuery(mobile){
+            margin-bottom: 20%;
+        }
+        @include mediaQuery(tablet){
+            margin-bottom: 20%;
+        }
     }

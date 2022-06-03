@@ -87,7 +87,6 @@ header .navbar-collapse .nav-link:hover {
 
 .form {
   margin: 20px;
-  margin-left: 800px;
   background-image: 0;
   width: 80%;
   max-width: 400px;
@@ -152,9 +151,21 @@ header .navbar-collapse .nav-link:hover {
 }
 
 .ubi .ubi__iframe {
-  width: 1320px;
+  width: 100%;
   padding-right: 50px 0;
   margin-bottom: 45px;
+}
+
+@media only screen and (max-width: 520px) {
+  .ubi .ubi__iframe {
+    margin-bottom: 30%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .ubi .ubi__iframe {
+    margin-bottom: 20%;
+  }
 }
 
 .carousel-inner {
@@ -173,14 +184,27 @@ header .navbar-collapse .nav-link:hover {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   color: #000;
-  margin: 50px;
+  padding: 50px;
 }
 
 .imagen__principal {
   border-radius: 1em;
-  margin: 5px;
+  padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (max-width: 520px) {
+  .imagen__principal {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .imagen__principal {
+    margin-bottom: 10%;
+  }
 }
 
 .titulo__servicio {
@@ -193,7 +217,23 @@ header .navbar-collapse .nav-link:hover {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   color: #000;
-  margin: 50px;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 520px) {
+  .Parrafo__servicio {
+    margin-bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .Parrafo__servicio {
+    margin-bottom: 20%;
+  }
+}
+
+.banner__bici {
+  width: 100%;
 }
 
 .textoprincipal__text {
@@ -209,7 +249,7 @@ header .navbar-collapse .nav-link:hover {
 
 .container .imagen__contenido {
   border-radius: 1em;
-  margin: 5px;
+  padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 250px;
@@ -230,15 +270,14 @@ header .navbar-collapse .nav-link:hover {
 }
 
 .segundo__contenedor .contenedor__imagen {
-  margin: 5px;
+  padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 450px;
+  width: 400px;
   height: 300px;
   border-radius: 1em;
   -webkit-transition: all 1s;
   transition: all 1s;
-  margin-left: 150px;
 }
 
 .segundo__contenedor .contenedor__imagen:hover {
@@ -249,6 +288,18 @@ header .navbar-collapse .nav-link:hover {
 .segundo__contenedor .contenedor__parrafo {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  margin-right: 100px;
+  padding-right: 100px;
+}
+
+@media only screen and (max-width: 520px) {
+  .segundo__contenedor .contenedor__parrafo {
+    margin-bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .segundo__contenedor .contenedor__parrafo {
+    margin-bottom: 20%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
