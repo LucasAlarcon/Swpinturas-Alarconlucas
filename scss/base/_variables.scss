@@ -18,13 +18,13 @@ $colores:(
 %flex-center {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 };
 /* mixin */
 @mixin mediaQuery($pantalla){
     
     @if $pantalla == 'mobile'{
-        @media only screen and (max-width: 520px){
+        @media only screen and (max-width: 320px){
          @content;
         }
     };
