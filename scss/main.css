@@ -256,8 +256,8 @@ header .navbar-collapse .nav-link:hover {
 
 @media only screen and (max-width: 320px) {
   .container .imagen__contenido {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -285,8 +285,8 @@ header .navbar-collapse .nav-link:hover {
 
 @media only screen and (max-width: 320px) {
   .segundo__contenedor .contenedor__imagen {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 }
 

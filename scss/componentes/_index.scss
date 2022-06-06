@@ -24,8 +24,8 @@
           transition: all 1s;
 
           @include mediaQuery(mobile){
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
           }
         }
             .imagen__contenido:hover{
@@ -51,8 +51,8 @@
          transition: all 1s;
 
           @include mediaQuery(mobile){
-            width: 300px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
           }
         
         }
