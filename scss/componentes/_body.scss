@@ -4,4 +4,8 @@ body{
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
+
+    @include mediaQuery(mobile){
+        overflow-x: hidden;
+      }
 }
