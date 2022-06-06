@@ -147,6 +147,13 @@ header .navbar-collapse .nav-link:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 2px;
+  padding-bottom: 20%;
+}
+
+@media only screen and (max-width: 780px) {
+  .ubi {
+    margin-bottom: 20%;
+  }
 }
 
 .ubi .ubi__texto {
@@ -157,18 +164,6 @@ header .navbar-collapse .nav-link:hover {
   width: 100%;
   padding-right: 50px 0;
   margin-bottom: 45px;
-}
-
-@media only screen and (max-width: 320px) {
-  .ubi .ubi__iframe {
-    margin-bottom: 30%;
-  }
-}
-
-@media only screen and (max-width: 780px) {
-  .ubi .ubi__iframe {
-    margin-bottom: 20%;
-  }
 }
 
 .carousel-inner {
@@ -190,24 +185,22 @@ header .navbar-collapse .nav-link:hover {
   padding: 40px;
 }
 
-.imagen__principal {
+.img__contenido {
+  padding-bottom: 20%;
+}
+
+@media only screen and (max-width: 780px) {
+  .img__contenido {
+    padding-bottom: 10%;
+  }
+}
+
+.img__contenido .imagen__principal {
   border-radius: 1em;
   padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-}
-
-@media only screen and (max-width: 320px) {
-  .imagen__principal {
-    margin-bottom: 20%;
-  }
-}
-
-@media only screen and (max-width: 780px) {
-  .imagen__principal {
-    margin-bottom: 10%;
-  }
 }
 
 .titulo__servicio {

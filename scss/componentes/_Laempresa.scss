@@ -5,16 +5,17 @@
     @extend %flex-center;
     padding: 40px;
 }
+.img__contenido{
+ padding-bottom: 20%;
+
+ @include mediaQuery(tablet){
+    padding-bottom: 10%;
+  }
+   
     .imagen__principal{
      border-radius: 1em;
      padding: 5px;
      object-fit: cover; 
      width: 100%;
-
-     @include mediaQuery(mobile){
-       margin-bottom: 20%;
-     }
-     @include mediaQuery(tablet){
-         margin-bottom: 10%;
-     }
     }
+}

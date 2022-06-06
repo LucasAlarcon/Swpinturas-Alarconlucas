@@ -1,8 +1,5 @@
 .banner__bici{
   width: 100%;
-
-  @include mediaQuery(mobile){
-    text-align: center;
 }
 .textoprincipal__text {
     font-family: 'Roboto', sans-serif;
