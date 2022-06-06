@@ -4,6 +4,10 @@
  bottom: 0;
  width: 100%;
 
+ @include mediaQuery(mobile){
+   margin-top: 20%;
+ }
+
     .footer__logo{
         margin-top: 10px;
         padding: 5px;

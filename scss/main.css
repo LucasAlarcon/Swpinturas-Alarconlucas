@@ -49,6 +49,12 @@ header .navbar-collapse .nav-link:hover {
   width: 100%;
 }
 
+@media only screen and (max-width: 320px) {
+  .footer {
+    margin-top: 20%;
+  }
+}
+
 .footer .footer__logo {
   margin-top: 10px;
   padding: 5px;
@@ -194,7 +200,7 @@ header .navbar-collapse .nav-link:hover {
 
 @media only screen and (max-width: 320px) {
   .imagen__principal {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 }
 
@@ -255,6 +261,13 @@ header .navbar-collapse .nav-link:hover {
   transition: all 1s;
 }
 
+@media only screen and (max-width: 320px) {
+  .container .imagen__contenido {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .container .imagen__contenido:hover {
   -webkit-transform: translate(10px, 10px);
           transform: translate(10px, 10px);
@@ -277,6 +290,13 @@ header .navbar-collapse .nav-link:hover {
   transition: all 1s;
 }
 
+@media only screen and (max-width: 320px) {
+  .segundo__contenedor .contenedor__imagen {
+    width: 300px;
+    height: 250px;
+  }
+}
+
 .segundo__contenedor .contenedor__imagen:hover {
   -webkit-transform: translate(10px, 10px);
           transform: translate(10px, 10px);
@@ -290,7 +310,7 @@ header .navbar-collapse .nav-link:hover {
 
 @media only screen and (max-width: 320px) {
   .segundo__contenedor .contenedor__parrafo {
-    margin-bottom: 20%;
+    padding: 5px;
   }
 }
 

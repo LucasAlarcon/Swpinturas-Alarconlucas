@@ -1,13 +1,15 @@
 .banner__bici{
   width: 100%;
 
-
+  @include mediaQuery(mobile){
+    text-align: center;
 }
 .textoprincipal__text {
     font-family: 'Roboto', sans-serif;
     font-size: map-get($tamaño-tipografico, titulos);
     color: #000;
     @extend %flex-center;
+
 }
 .container{
     @extend %flex-center;
@@ -23,6 +25,11 @@
           width: 250px;
           height: 250px;
           transition: all 1s;
+
+          @include mediaQuery(mobile){
+            width: 150px;
+            height: 150px;
+          }
         }
             .imagen__contenido:hover{
              transform: translate(10px,10px)
@@ -36,6 +43,7 @@
       font-size: map-get($tamaño-tipografico, titulos);
       color: #000;
       @extend %flex-center;
+
     }
         .contenedor__imagen{
          padding: 5px;
@@ -44,7 +52,12 @@
          height: 300px;
          border-radius: 1em;
          transition: all 1s;
-         
+
+          @include mediaQuery(mobile){
+            width: 300px;
+            height: 250px;
+          }
+        
         }
             .contenedor__imagen:hover{
              transform: translate(10px,10px);
@@ -55,7 +68,8 @@
                  padding-right: 100px;
 
                  @include mediaQuery(mobile){
-                   margin-bottom: 20%;
+                   padding: 5px;
+                   
                  }
                  @include mediaQuery(tablet){
                    margin-bottom: 20%;
