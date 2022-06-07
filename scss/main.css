@@ -158,7 +158,7 @@ header .navbar-collapse .nav-link:hover {
 
 @media only screen and (max-width: 780px) {
   .ubi {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 }
 
@@ -191,10 +191,6 @@ header .navbar-collapse .nav-link:hover {
   padding: 40px;
 }
 
-.img__contenido {
-  padding-bottom: 20%;
-}
-
 @media only screen and (max-width: 780px) {
   .img__contenido {
     padding-bottom: 10%;
@@ -207,6 +203,7 @@ header .navbar-collapse .nav-link:hover {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  margin-bottom: 20%;
 }
 
 .titulo__servicio {
