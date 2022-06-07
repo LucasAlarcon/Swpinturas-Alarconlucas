@@ -26,6 +26,8 @@
           @include mediaQuery(mobile){
             width: 100px;
             height: 100px;
+            display: flex;
+            align-items: center;
           }
         }
             .imagen__contenido:hover{
